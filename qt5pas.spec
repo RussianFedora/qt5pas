@@ -1,3 +1,5 @@
+%global lazarus_version 1.8.4
+
 Name:           qt5pas
 Version:        1.2.6
 Release:        1%{?dist}
@@ -5,7 +7,7 @@ Summary:        Qt 5 bindings for pascal
 
 License:        LGPLv3+
 URL:            https://github.com/graemeg/lazarus/tree/upstream/lcl/interfaces/qt5/cbindings
-Source0:        http://downloads.sourceforge.net/project/lazarus/Lazarus%20Zip%20_%20GZip/Lazarus%20%{version}/lazarus-1.8.0.tar.gz
+Source0:        http://downloads.sourceforge.net/project/lazarus/Lazarus%20Zip%20_%20GZip/Lazarus%20%{lazarus_version}/lazarus-%{lazarus_version}.tar.gz
 
 BuildRequires:  qt5-qtbase-devel
 BuildRequires:  qt5-qtx11extras-devel
